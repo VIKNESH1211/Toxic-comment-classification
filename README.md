@@ -8,3 +8,6 @@ _____________
 The JIG-SAW Toxic Comments data set was used to train the model , The data set has 159571 entries with six classes ore six targets which are toxic, severe_toxic , obscene , threat , insult & identity_hate.
 
 The total number of multi labeled comments were 9865 , 
+_____________
+
+##  VANNILA-RNN
