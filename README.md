@@ -12,6 +12,10 @@ The total number of multi labeled comments were 9865 ,
 <p align="center">
   <img src="https://github.com/VIKNESH1211/Toxic-comment-classification/blob/main/clean/multi.jpg?raw=true" width="700" alt="accessibility text">
 </p>
-_____________
 
 ##  VANNILA-RNN
+A RNN based NLP model was developed to pick the sentiment of the comment and was used to label the comment using the six labels
+
+<p align="center">
+  <img src="https://github.com/VIKNESH1211/Toxic-comment-classification/blob/main/RNN/model.png?raw=true" width="700" alt="accessibility text">
+</p>
