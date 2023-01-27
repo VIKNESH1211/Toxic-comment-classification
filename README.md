@@ -19,3 +19,11 @@ A RNN based NLP model was developed to pick the sentiment of the comment and was
 <p align="center">
   <img src="https://github.com/VIKNESH1211/Toxic-comment-classification/blob/main/RNN/model.png?raw=true" width="700" alt="accessibility text">
 </p>
+
+The above image was produced using the plot_model function from tensorflow.
+the diagram of the model clearly shows that the data first goes through the text_vectorization layer then the embedding layer and then through the vannila-rnn layer and then it goes through dropouts to introduce some bias and finally all the features go thorugh 6 different sigmoid layers which can produce 6 independent outputs
+the above model architecture was achived using the Keras Functional API
+
+<p align="center">
+  <img src="https://github.com/VIKNESH1211/Toxic-comment-classification/blob/main/RNN/RNN_loss.jpg?raw=true" width="700" alt="accessibility text">
+</p>
