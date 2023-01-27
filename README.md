@@ -49,7 +49,7 @@ The average accuracy from all 6 outputs is 0.967
 A LSTM based NLP model was developed to pick the sentiment of the comment and was used to label the comment using the six labels
 
 <p align="center">
-  <img src="https://github.com/VIKNESH1211/Toxic-comment-classification/blob/main/LSTM/LSTM_LOSS.jpg?raw=true" width="700" alt="accessibility text">
+  <img src="https://github.com/VIKNESH1211/Toxic-comment-classification/blob/main/LSTM/model.png?raw=true width="700" alt="accessibility text">
 </p>
 
 The above image was produced using the plot_model function from tensorflow.
@@ -57,7 +57,7 @@ the diagram of the model clearly shows that the data first goes through the text
 the above model architecture was achived using the Keras Functional API
 
 <p align="center">
-  <img src="https://github.com/VIKNESH1211/Toxic-comment-classification/blob/main/RNN/image.png?raw=true" width="400" alt="accessibility text">
+  <img src="https://github.com/VIKNESH1211/Toxic-comment-classification/blob/main/LSTM/LSTM_LOSS.jpg?raw=true" width="400" alt="accessibility text">
 </p>
 
 ```sh
