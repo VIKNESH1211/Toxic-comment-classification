@@ -13,7 +13,7 @@ The total number of multi labeled comments were 9865 ,
   <img src="https://github.com/VIKNESH1211/Toxic-comment-classification/blob/main/clean/multi.jpg?raw=true" width="700" alt="accessibility text">
 </p>
 
-##  VANNILA-RNN
+##  VANNILA-RNN based TREE MODEL
 A RNN based NLP model was developed to pick the sentiment of the comment and was used to label the comment using the six labels
 
 <p align="center">
@@ -29,4 +29,5 @@ the above model architecture was achived using the Keras Functional API
 </p>
 
 The average loss of all 6 outputs is 0.0845
+
 The average accuracy from all 6 outputs is 0.967
