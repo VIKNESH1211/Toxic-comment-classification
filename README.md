@@ -49,7 +49,7 @@ The average accuracy from all 6 outputs is 0.967
 A LSTM based NLP model was developed to pick the sentiment of the comment and was used to label the comment using the six labels
 
 <p align="center">
-  <img src="https://github.com/VIKNESH1211/Toxic-comment-classification/blob/main/LSTM/model.png?raw=true width="700" alt="accessibility text">
+  <img src="https://github.com/VIKNESH1211/Toxic-comment-classification/blob/main/LSTM/model.png?raw=true width="500" alt="accessibility text">
 </p>
 
 The above image was produced using the plot_model function from tensorflow.
