@@ -28,6 +28,19 @@ the above model architecture was achived using the Keras Functional API
   <img src="https://github.com/VIKNESH1211/Toxic-comment-classification/blob/main/RNN/image.png?raw=true" width="400" alt="accessibility text">
 </p>
 
+```sh
+model_rnn.compile(optimizer= tf.keras.optimizers.Adam(learning_rate=1e-5)  ,
+                     loss = ['binary_crossentropy' , 'binary_crossentropy' , 'binary_crossentropy' , 
+                     'binary_crossentropy' , 'binary_crossentropy' , 'binary_crossentropy'] , metrics='accuracy')
+```
+```sh
+model_rnn.fit(x = x_train , y = [y_train.toxic , y_train.severe_toxic , y_train.obscene 
+                                    , y_train.threat , y_train.insult , y_train.identity_hate] ,
+                batch_size=32, epochs=15,
+                 validation_data=(x_val , [ y_val.toxic , y_val.severe_toxic , y_val.obscene 
+                                            , y_val.threat , y_val.insult , y_val.identity_hate]))
+```
+
 The average loss of all 6 outputs is 0.0845
 
 The average accuracy from all 6 outputs is 0.967
